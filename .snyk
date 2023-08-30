@@ -1,0 +1,104 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - gatsby > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:extend:20180424'
+        path: gatsby > chokidar > fsevents > node-pre-gyp > request > extend
+    - gatsby > postcss-import > pkg-resolve > jspm > liftoff > extend:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:extend:20180424'
+        path: gatsby > postcss-import > pkg-resolve > jspm > liftoff > extend
+    - gatsby > postcss-import > pkg-resolve > jspm > proper-lockfile > extend:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          gatsby > postcss-import > pkg-resolve > jspm > proper-lockfile >
+          extend
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          gatsby-source-filesystem > babel-cli > chokidar > fsevents >
+          node-pre-gyp > request > extend
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > extend:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request >
+          extend
+  'npm:hoek:20180212':
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: gatsby > chokidar > fsevents > node-pre-gyp > hawk > hoek
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: gatsby > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: gatsby > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gatsby-source-filesystem > babel-cli > chokidar > fsevents >
+          node-pre-gyp > hawk > hoek
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gatsby-source-filesystem > babel-cli > chokidar > fsevents >
+          node-pre-gyp > hawk > boom > hoek
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gatsby-source-filesystem > babel-cli > chokidar > fsevents >
+          node-pre-gyp > hawk > sntp > hoek
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request >
+          hawk > hoek
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > boom > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request >
+          hawk > boom > hoek
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > sntp > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request >
+          hawk > sntp > hoek
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request >
+          hawk > cryptiles > boom > hoek
+  'npm:stringstream:20180511':
+    - gatsby > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:stringstream:20180511'
+        path: gatsby > chokidar > fsevents > node-pre-gyp > request > stringstream
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          gatsby-source-filesystem > babel-cli > chokidar > fsevents >
+          node-pre-gyp > request > stringstream
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > stringstream:
+        patched: '2023-08-30T15:19:17.696Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request >
+          stringstream
